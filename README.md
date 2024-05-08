@@ -66,19 +66,13 @@ print("RMSE= ",rmse)
 ## Output:
 ![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/0c7a7db6-866c-4413-9dcd-72d09bef4131)
 ![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/71bb107c-3683-495a-9cd3-493328d71add)
+
 ![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/dd3d3059-f86a-4488-860e-aa0180cf27de)
-![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/c7d35db4-a5ea-4ea3-9b58-162978519836)
-![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/45d1165a-12c0-4c26-b719-3acbf5cf854e)
-![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/9e5f72a1-d709-4538-bcb4-3ddecd11bb9c)
-![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/de6891c6-1a6c-43f0-a958-7347537a1029)
-![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/bceb01ee-b4b6-48bb-9593-112619b53e57)
-![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/09455499-eccf-4086-ad9c-b0bbe0577d4d)
-![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/08d45b8b-f317-41c0-9989-88795a73ad50)
-![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/2fe9b461-df07-403a-abff-6544d68ba2c8)
-
-
-
-
+![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/75c23779-d68d-48df-9d3b-fa04fd006e5b)
+![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/250b858e-bed0-4c24-b6d8-368aa74c6649)
+![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/0f9fa040-7741-4625-b829-149cb34a434c)
+![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/1496537a-5da3-44a6-b63b-c428cf6680c1)
+![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/52494c50-ce2d-4045-ba8f-e2e581151d48)
 
 ## Result:
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
