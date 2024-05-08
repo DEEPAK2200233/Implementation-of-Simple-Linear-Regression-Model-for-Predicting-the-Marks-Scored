@@ -65,6 +65,15 @@ print("RMSE= ",rmse)
 
 ## Output:
 ![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/d06991b1-eec3-4ba3-88d4-b7dba801e810)
+![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/309cf8a1-1f74-4f06-9857-6c8d6b158f8c)
+![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/73310fcd-9fea-41ff-8e4b-fc4f1c69bd6c)
+![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/8adc0b42-cfde-4ec0-88fb-3619cd024cb2)
+![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/3c4b3f37-cd48-4f72-b651-7c5d4fd042c7)
+![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/0c1c58ae-5167-4319-a43f-72d67ef799f4)
+![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/093c6362-7a77-4575-8200-a8a94d3013b8)
+![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/be155446-b6e5-438f-9a54-15e84471b78e)
+![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/c0405ed3-2613-4a7c-a3a6-663a0664b268)
+
 
 
 
