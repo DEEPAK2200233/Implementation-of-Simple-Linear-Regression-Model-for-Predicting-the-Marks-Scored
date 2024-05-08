@@ -1,4 +1,4 @@
-# Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored
+# Ex.No.2-Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored
 
 ## AIM:
 To write a program to predict the marks scored by a student using the simple linear regression model.
@@ -8,69 +8,74 @@ To write a program to predict the marks scored by a student using the simple lin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Import pandas, numpy and sklearn
-2. 2.Calculate the values for the training data set
-3. 3.Calculate the values for the test data set
-4. 4.Plot the graph for both the data sets and calculate for MAE, MSE and RMSE
+1. Import the standard Libraries.
+2. Set variables for assigning dataset values.
+3. Import linear regression from sklearn.
+4. Assign the points for representing in the graph.
+5. Predict the regression for marks by using the representation of the graph.
+6. Compare the graphs and hence we obtained the linear regression for the given datas.
 
 ## Program:
 ```
 /*
 Program to implement the simple linear regression model for predicting the marks scored.
 Developed by: DEEPAK RAJ S
-RegisterNumber: 212222240023
-
+RegisterNumber:212222240023
+*/
+```
+```
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from sklearn.metrics import mean_absolute_error, mean_squared_error
-df=pd.read_csv("C:/Users/SEC/Downloads/student_scores.csv")
+from sklearn.metrics import mean_absolute_error as mae,mean_squared_error as mse
+df=pd.read_csv("student_scores.csv")
 df.head()
 df.tail()
-X=df.iloc[:,:-1].values
-print(X)
-Y=df.iloc[:,-1].values
-print(Y)
+x = df.iloc[:,:-1].values
+print(x)
+y = df.iloc[:,1].values
+print(y)
 from sklearn.model_selection import train_test_split
-X_train,X_test,Y_train,Y_test=train_test_split(X,Y,test_size=1/3,random_state=0)
-
+x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=1/3,random_state=0)
 from sklearn.linear_model import LinearRegression
-regressor=LinearRegression()
-regressor.fit(X_train,Y_train)
-Y_pred=regressor.predict(X_test)
-
-print(Y_pred)
-print(Y_test)
-plt.scatter(X_train,Y_train,color="orange")
-plt.plot(X_train,regressor.predict(X_train),color="red")
-plt.title("Hours vs scores(Training Set)")
+regressor = LinearRegression()
+regressor.fit(x_train,y_train)
+y_pred = regressor.predict(x_test)
+print(y_pred)
+print(y_test)
+plt.scatter(x_train,y_train,color='purple')
+plt.plot(x_train,regressor.predict(x_train),color='yellow')
+plt.title("Hours vs Scores(Training set)")
 plt.xlabel("Hours")
 plt.ylabel("Scores")
 plt.show()
-plt.scatter(X_test,Y_test,color="orange")
-plt.plot(X_test,regressor.predict(X_test),color="red")
-plt.title("Hours vs scores(Test Data Set)")
+plt.scatter(x_test,y_test,color='red')
+plt.plot(x_train,regressor.predict(x_train),color='blue')
+plt.title("Hours vs Scores(Testing set)")
 plt.xlabel("Hours")
 plt.ylabel("Scores")
 plt.show()
-mse=mean_squared_error(Y_test,Y_pred)
-print("MSE = ",mse)
-mae=mean_absolute_error(Y_test,Y_pred)
-print("MAE = ",mae)
+mse=mean_squared_error(y_test,y_pred)
+print('MSE = ',mse)
+mae=mean_absolute_error(y_test,y_pred)
+print('MAE = ',mae)
 rmse=np.sqrt(mse)
-print("RMSE : ",rmse)
-
-*/
+print("RMSE= ",rmse)
 ```
 
 ## Output:
-![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/cdb652c8-5ce4-4395-afc1-8d8d25368256)
+![model](1.png)
+![model](2.png)
+![model](3.png)
+![model](4.png)
+![model](5.png)
+![model](5.png)
+![model](6.png)
+![model](7.png)
+![model](8.png)
 
-![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/c1f1fea0-1955-4681-820c-900f1d22d84f)
 
-![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/724ff1eb-4571-4d66-9f8a-f92289e579e6)
 
-![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/4ec8381b-e8d7-401d-91b0-325a982123a4)
 
 ## Result:
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
