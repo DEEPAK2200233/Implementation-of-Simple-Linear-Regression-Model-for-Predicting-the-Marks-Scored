@@ -64,15 +64,8 @@ print("RMSE= ",rmse)
 ```
 
 ## Output:
-![model](1.png)
-![model](2.png)
-![model](3.png)
-![model](4.png)
-![model](5.png)
-![model](5.png)
-![model](6.png)
-![model](7.png)
-![model](8.png)
+![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/d06991b1-eec3-4ba3-88d4-b7dba801e810)
+
 
 
 
