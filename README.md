@@ -73,6 +73,7 @@ print("RMSE= ",rmse)
 ![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/250b858e-bed0-4c24-b6d8-368aa74c6649)
 ![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/0f9fa040-7741-4625-b829-149cb34a434c)
 ![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/1496537a-5da3-44a6-b63b-c428cf6680c1)
+
 ![image](https://github.com/DEEPAK2200233/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707676/52494c50-ce2d-4045-ba8f-e2e581151d48)
 
 ## Result:
